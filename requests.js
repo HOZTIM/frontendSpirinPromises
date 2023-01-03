@@ -58,7 +58,6 @@ function codeAddress() {
                 categorySelect.selectedIndex = categorySelect.length-1;
             }
         }
-        // selection.textContent = "Вы выбрали: " + selectedOption.text;
         ourdiv = document.getElementById('grid');
         ourdiv.innerHTML = "";
         const loader = document.createElement('div');
